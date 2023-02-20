@@ -4,13 +4,14 @@
  *  main- uses putchar to print
  *  an array of characters
  *  Return: Always 0 (SUCCESS)
+ *
  */
 int main(void)
 {
-	char alphabet;
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	{	putchar(alphabet);
-	}
+	char az;
+
+	for (az = 'a'; az <= 'z'; az++);
+		putchar(az);
 	putchar('\n');
 	return (0);
 }
