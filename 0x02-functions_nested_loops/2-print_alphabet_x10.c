@@ -3,20 +3,22 @@
 
 /**
  * main- prints lowercase alphabet x10
+ * followed by a new line
+ *
  * Return: Always 0 (SUCCESS)
  */
 int main(void)
 {
-	int i = 0;
+	int i;
 	char j;
 
-	while (i < 10)
+	for (i = '0'; i < 10; i++)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
-			_putchar(j);
+			putchar(j);
 		}
-		_putchar("\n");
+		putchar("\n");
 	}
 	return (0);
 }
