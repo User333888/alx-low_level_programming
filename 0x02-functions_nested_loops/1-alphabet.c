@@ -7,8 +7,10 @@
  *
  * Return: Always 0 (SUCCESS)
  */
-int print_alphabet(void)
+int main(void)
 {
+	print_alphabet();
+	{
 	char abc = 'a';
 
 	while (abc <= 'z')
@@ -17,5 +19,5 @@ int print_alphabet(void)
 		abc++;
 	}
 	putchar('\n');
-	return (0);
+	}
 }
