@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- * main - print putchar
+ * main - print _putchar
+ * followed by a new line
+ *
  * return 0 always success
  */
 int main(void)
