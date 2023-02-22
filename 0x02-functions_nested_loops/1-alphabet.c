@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (SUCCESS)
  */
-void main(void)
+int main(void)
 {
 	char abc = 'a';
 
@@ -17,4 +17,5 @@ void main(void)
 		abc++;
 	}
 	putchar('\n');
+	return (0);
 }
