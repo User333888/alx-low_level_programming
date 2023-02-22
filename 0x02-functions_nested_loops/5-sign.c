@@ -21,7 +21,7 @@ int print_sign(int n)
 		return (1);
 		printf("+");
 	}
-	else (n == 0);
+	else if (n == 0);
 	{
 		return (0);
 		printf("0");
