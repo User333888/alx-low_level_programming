@@ -7,17 +7,17 @@
  *
  * Return: Always 0 (SUCCESS)
  */
+void print_alphabet(void);
+
 int main(void)
 {
-	print_alphabet();
-	{
 	char abc = 'a';
-
+	
 	while (abc <= 'z')
 	{
-	putchar(abc);
+		putchar(abc);
 		abc++;
 	}
 	putchar('\n');
-	}
+	return (0);
 }
