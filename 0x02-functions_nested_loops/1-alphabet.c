@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (SUCCESS)
  */
-int main(void)
+int print_alphabet(void)
 {
 	char abc = 'a';
 
