@@ -1,24 +1,27 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main- prints lowercase alphabet x10
- * followed by a new line
- *
- * Return: Always 0 (SUCCESS)
+ * print_alphabet_x10 - prints lowercase alphabet x10
+ * @i: integer argument passed in for loop
+ * @j: char containing array of alphabet
+ * Return: Void.
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char j;
 
-	for (i = '0'; i < 10; i++)
+	i = 0;
+
+	while (i < 10)
 	{
-		for (j = 'a'; j <= 'z'; j++)
+		j = 'a';
+		while (j <= 'z')
 		{
 			putchar(j);
+			j++;
 		}
 		putchar("\n");
+		i++;
 	}
-	return (0);
 }
