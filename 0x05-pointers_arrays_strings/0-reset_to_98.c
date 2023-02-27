@@ -5,17 +5,14 @@
  * main - takes a pointer parameter value
  * and updates it to 98
  *
- * Return : Always 0
+ * Return : Void
  */
-int reset_to_98(void)
+void reset_to_98(int *n)
 {
-	int n;
-	int *p;
-	
-	n = 402;
-	p = &n;
-	printf("n=%d\n", n);
-	*p = 98;
-	printf("n=%d\n", n);
-	return (0);
+	int a = 20;
+	int *n;
+	n = &a;
+	printf("n=%d\n", a);
+	*n = 98;
+	printf("n=%d\n", a);
 }
