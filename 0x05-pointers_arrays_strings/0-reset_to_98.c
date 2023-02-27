@@ -7,7 +7,7 @@
  *
  * Return : Always 0
  */
-int main(void)
+int reset_to_98(void)
 {
 	int n;
 	int *p;
