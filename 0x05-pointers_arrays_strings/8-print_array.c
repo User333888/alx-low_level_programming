@@ -4,7 +4,7 @@
 /**
  * print_array - prints n elements of an array
  * followed by a newline
- * @*a: pointer to an array
+ * @a: pointer to an array
  * @n: integer value
  *
  * Return: nothing
