@@ -1,2 +1,4 @@
-ALX Tasks to do with functions and nested loops.
-README
+nested loops
+if, else, while already covered
+print using putchar
+readme.md

@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,20 +9,16 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	char j;
-
-	i = 0;
+	int i =0;
 
 	while (i < 10)
 	{
-		j = 'a';
-		while (j <= 'z')
+		char abz = 'a';
+		while (abz <= 'z')
 		{
-			putchar(j);
-			j++;
+			putchar(abz);
+			abz++;
 		}
-		putchar("\n");
-		i++;
+		putchar('\n');
 	}
 }
