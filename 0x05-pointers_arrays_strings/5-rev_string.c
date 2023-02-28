@@ -2,13 +2,26 @@
 #include "main.h"
 
 /**
- * rev_string - prints a string value in reverse
+ * rev_string - reverse a string using for loop
  * @s: string value
  *
  * Return: nothing
  */
 void rev_string(char *s)
 {
-	int i = 0;
+	char temp;
+	int i, start, end, len;
 
-	for (str[i] = 0; )
+	len = _strlen(s);
+	start = 0;
+	end = len - 1;
+
+	for (i = start; i < end; i++ )
+	{
+		temp = s[i];
+		s[i] = s[end];
+		s[end] = temp;
+		end--;
+	}
+}
+
