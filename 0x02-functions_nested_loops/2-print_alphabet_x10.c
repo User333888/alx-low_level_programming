@@ -3,8 +3,7 @@
 
 /**
  * print_alphabet_x10 - prints lowercase alphabet x10
- * @i: integer argument passed in for loop
- * @j: char containing array of alphabet
+ * 
  * Return: Void.
  */
 void print_alphabet_x10(void)
@@ -14,6 +13,7 @@ void print_alphabet_x10(void)
 	for (i = 0; i < 10; i++)
 	{
 		char abz = 'a';
+
 		while (abz <= 'z')
 		{
 			putchar(abz);
