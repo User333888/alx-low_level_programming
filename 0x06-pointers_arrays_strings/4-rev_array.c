@@ -3,22 +3,23 @@
 #include "main.h"
 
 /**
- * reverse_array - reverses the contents of an array of integers
+ * main - reverses the contents of an array of integers
  * @a: an array of integers
  * @n: the number of elements in an array
  * Return: void.
  */
 void reverse_array(int *a, int n)
 {
-	int i = 0;
-	int len;
+	int i = n;
 
-	for (len = 0; a[len] != '\0'; len++)
+	while (i >= 0)
 	{
+		if (i != 0)
+		{
+			printf("%d, ", a[i]);
+		}
+		printf("%d", a[0]);
+		i--;
 	}
-	for (i = len - 1; i >= 0; i--)
-	{
-		printf("%d\n", a[i]);
-	}
-	putchar('\n');
+	printf("\n");
 }
