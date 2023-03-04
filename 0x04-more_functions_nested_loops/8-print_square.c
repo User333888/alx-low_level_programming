@@ -3,7 +3,7 @@
 
 /**
  * print_square - prints a square to standard output
- * @n: the number of times to print \
+ * @size: the size of a square
  * Return: void
  */
 void print_square(int size)
