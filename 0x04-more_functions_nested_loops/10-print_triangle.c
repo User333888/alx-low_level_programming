@@ -16,11 +16,15 @@ void print_triangle(int size)
 		{
 			printf(" ");
 		}
-		while (k != (2 * (i - 1)))
+		while (k != 2 * i - 1)
 		{
 			printf("#");
 			k++;
 		}
+		printf("\n");
+	}
+	if (size <= 0)
+	{
 		printf("\n");
 	}
 }
