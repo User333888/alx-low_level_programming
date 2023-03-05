@@ -23,4 +23,5 @@ int fizzbuzz(void)
 			printf("%d ", i);
 		}
 	}
+	return (0);
 }
