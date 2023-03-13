@@ -13,7 +13,7 @@ void natural(void)
 	int i;
 	int k = 0;
 
-	for (i = 0; i < 1024; i++)
+	for (i = 0; i < n; i++)
 	{
 		if ((i % 3) == 0 || (i % 5) == 0)
 			k = k + i;
