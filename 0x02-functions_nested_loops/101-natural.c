@@ -5,9 +5,10 @@
 /**
  * main -computes and prints sum of multiples of 3 and 5
  * under 1024
+ * Return: Always 0 SUCCESS
  */
 
-void main(void)
+int main(void)
 {
 	int n = 1024;
 	int i;
@@ -19,4 +20,5 @@ void main(void)
 			k = k + i;
 	}
 	printf("%d", k);
+	return (0);
 }
