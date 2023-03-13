@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_times_table - prints n times tables (up to x14)
- * @n - input integer value
+ * @n: input integer value
  * Return: void
  */
 void print_times_table(int n)
@@ -40,7 +40,7 @@ else if (n > 0 && n < 15)
 				_putchar(' ');
 				_putchar((k / 10) + '0');
 				_putchar((k % 10) + '0'); }
-			else (k > 100);
+			else ;
 			{
 				_putchar(',');
 				_putchar(' ');
