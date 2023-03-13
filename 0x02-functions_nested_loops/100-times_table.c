@@ -1,21 +1,12 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_times_table - prints n times tables (up to x14)
  * @n: input integer value
- * Return: void
  */
 void print_times_table(int n)
 {
 int i, j, k;
-
-if (n == 0)
-{
-	_putchar(n + '0');
-	_putchar('\n');
-}
-
-else if (n > 0 && n < 15)
+if (n >= 0 && n <= 15)
 {
 	for (i = 0; i <= n; i++)
 	{
@@ -24,8 +15,7 @@ else if (n > 0 && n < 15)
 			k = j * i;
 			if (j == 0)
 				_putchar(k + '0');
-
-			if (k < 10 && j != 0)
+			else if (k < 10 && j != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -47,5 +37,4 @@ else if (n > 0 && n < 15)
 				_putchar((k / 100) + '0');
 				_putchar((k / 10) + '0');
 				_putchar((k % 10) + '0');
-			}} _putchar('\n');
-}}}
+			}} _putchar('\n'); }}}
