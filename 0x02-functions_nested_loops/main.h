@@ -15,5 +15,6 @@ int add(int one, int two);
 void print_to_98(int n);
 void print_times_table(int n);
 int main(void);
+int fibonacci50(void);
 
 #endif
