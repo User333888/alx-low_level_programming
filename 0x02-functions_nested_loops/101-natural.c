@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- * natural -computes and prints sum of multiples of 3 and 5
+ * main -computes and prints sum of multiples of 3 and 5
  * under 1024
  */
 
-void natural(void)
+void main(void)
 {
 	int n = 1024;
 	int i;
@@ -18,5 +18,5 @@ void natural(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			k = k + i;
 	}
-	_putchar(k);
+	printf("%d", k);
 }
