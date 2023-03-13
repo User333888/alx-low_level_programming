@@ -35,6 +35,6 @@ if (n >= 0 && n <= 15)
 				_putchar(',');
 				_putchar(' ');
 				_putchar((k / 100) + '0');
-				_putchar((k / 10) + '0');
+				_putchar(((k / 10) % 10) + '0');
 				_putchar((k % 10) + '0');
 			}} _putchar('\n'); }}}
