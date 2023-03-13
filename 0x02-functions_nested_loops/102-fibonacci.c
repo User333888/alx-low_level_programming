@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * fibonacci50 - prints the first 50 fibonacci numbers
  * Return: Always 0 Success
  */
-int fibonacci50(void)
+void fibonacci50(int n)
 {
 	int a = 1, b = 2;
 	int c = a + b;
-	int i, n = 50;
+	int i;
 
 	printf("%d, %d, ", a, b);
 
@@ -20,5 +21,10 @@ int fibonacci50(void)
 		b = c;
 		c = a + b;
 	}
+}
+
+int main(void)
+{
+	fibonacci50(50);
 	return (0);
 }
