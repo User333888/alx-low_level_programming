@@ -3,20 +3,22 @@
 #include "main.h"
 
 /**
+ * main - runs the fibonacci code
  * fibonacci50 - prints the first 50 fibonacci numbers
+ * @n: the number passed to the function
  * Return: Always 0 Success
  */
 void fibonacci50(int n)
 {
-	int a = 1, b = 2;
-	int c = a + b;
+	unsigned long int a = 1, b = 2;
+	unsigned long int c = a + b;
 	int i;
 
-	printf("%d, %d, ", a, b);
+	printf("%ld, %ld, ", a, b);
 
 	for (i = 3; i <= n; i++)
 	{
-		printf("%d, ", c);
+		printf("%ld, ", c);
 		a = b;
 		b = c;
 		c = a + b;
