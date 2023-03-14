@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
 /**
- * main - runs the fibonacci code
- * fibonacci50: prints the first 50 fibonacci numbers
+ * fibonacci50: computes and prints the first 50 fibonacci numbers
  * @n: the number passed to the function
  * Return: Always 0 Success
  */
@@ -25,13 +23,14 @@ void fibonacci50(int n)
 		b = c;
 		c = a + b;
 		}
-		else 
+		else
 		{
-			printf("%ld", c);
-		}
-	}
-}
-
+			printf("%ld\n", c);
+		}}}
+/**
+ * main - runs the fibonacci code
+ * Return: 0 Always success
+ */
 int main(void)
 {
 	fibonacci50(50);
