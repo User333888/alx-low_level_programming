@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * fibonacci50: computes and prints the first n fibonacci numbers
+ * fibonacci50 - computes and prints the first n fibonacci numbers
  * @n: the function prints until the nth term
  * Return: void
  */
