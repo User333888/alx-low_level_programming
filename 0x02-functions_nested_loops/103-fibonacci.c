@@ -10,21 +10,18 @@ void fib(void)
 {
 	unsigned long a = 1, b = 2;
 	unsigned long c = a + b;
-	int i, n;
-	unsigned long long k = 0;
+	int i = 3;
+	unsigned long k = 0;
 
-	for (i = 3; i <= n; i++)
+	while (c <= 4000000)
 	{
-		if (c <= 4000000)
-		{
-			a = b;
-			b = c;
-			c = a + b;
-			if ((c % 2) == 0)
-				k = k + c;
-		}
-	}
-	printf("%llu\n", k);
+		a = b;
+		b = c;
+		c = a + b;
+		if ((c % 2) == 0)
+			k = k + c;
+	} i++;
+	printf("%lu\n", k + 2);
 }
 
 /**
