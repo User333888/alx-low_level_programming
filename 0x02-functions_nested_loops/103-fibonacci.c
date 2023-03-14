@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - prints the sum of even valued fibonacci terms
+ * fib - prints the sum of even valued fibonacci terms
  * Return: 0 Always
  */
 void fib(void)
@@ -12,7 +12,7 @@ void fib(void)
 	unsigned long c = a + b;
 	int i, n;
 	unsigned long long k = 0;
-	
+
 	for (i = 3; i <= n; i++)
 	{
 		if (c <= 4000000)
@@ -27,6 +27,10 @@ void fib(void)
 	printf("%llu\n", k);
 }
 
+/**
+ * main - runs the fib function
+ * Return: 0 Always
+ */
 int main(void)
 {
 
