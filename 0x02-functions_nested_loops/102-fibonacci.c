@@ -4,7 +4,7 @@
 
 /**
  * main - runs the fibonacci code
- * fibonacci50 - prints the first 50 fibonacci numbers
+ * fibonacci50: prints the first 50 fibonacci numbers
  * @n: the number passed to the function
  * Return: Always 0 Success
  */
@@ -18,10 +18,17 @@ void fibonacci50(int n)
 
 	for (i = 3; i <= n; i++)
 	{
+		if (i != n)
+		{
 		printf("%ld, ", c);
 		a = b;
 		b = c;
 		c = a + b;
+		}
+		else 
+		{
+			printf("%ld", c);
+		}
 	}
 }
 
