@@ -4,20 +4,21 @@
 
 /**
  * fibonacci - prints fibonacci series using recursion
+ * @n: integer value to determine when loop will stop
  * Return: void
  */
 void fibonacci(int n)
 {
 	unsigned long int a = 1, b = 2;
 	unsigned long int c;
-	
+
 	if (n > 0)
 	{
 		c = a + b;
 		a = b;
 		b = c;
 		printf("%ld, ", c);
-		fibonacci(n-1);
+		fibonacci(n - 1);
 	}
 
 	else if (n == 98)
