@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * fibonacci50: computes and prints the first 50 fibonacci numbers
- * @n: the number passed to the function
- * Return: Always 0 Success
+ * fibonacci50: computes and prints the first n fibonacci numbers
+ * @n: the function prints until the nth term
+ * Return: void
  */
 void fibonacci50(int n)
 {
